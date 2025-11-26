@@ -1,9 +1,3 @@
-Top — hieronder staat een **volledig uitgewerkte README.md** die je zo in je GitHub-repo kan plakken.
-Het bevat een duidelijke uitleg, structuur én je code netjes geïntegreerd.
-
----
-
-````md
 # 🤖 Arduino BLE Servo Controller
 
 Deze Arduino-code stuurt **5 servo motoren** aan via **Bluetooth Low Energy (BLE)** en een **fysieke drukknop**.  
