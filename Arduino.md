@@ -6,6 +6,7 @@
 // ==========================================
 
 // === INSTELLINGEN VOOR SNELHEID ===
+
 // ==========================================
 // Tijd in milliseconden tussen elke graad verandering.
 // 5 = Heel snel
