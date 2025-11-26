@@ -9,12 +9,12 @@ Ideaal voor interactieve installaties, kinetische sculpturen of Arduino-gestuurd
 
 ## Features
 
-✅ 5 servo’s met soepele beweging  
-✅ Aansturing via Bluetooth (BLE)  
-✅ Start / Stop knop op hardware  
-✅ 5 verschillende bewegingspatronen  
-✅ Geen `delay()` → geen blokkering  
-✅ Dynamische timing gebaseerd op servo snelheid  
+- 5 servo’s met soepele beweging  
+- Aansturing via Bluetooth (BLE)  
+- Start / Stop knop op hardware  
+- 5 verschillende bewegingspatronen  
+- Geen `delay()` → geen blokkering  
+- Dynamische timing gebaseerd op servo snelheid  
 
 ---
 
