@@ -119,7 +119,10 @@ MAIN_HUB_6
 ```
 
 ### Onderdeel 2: Lower connector
-Van dit bestand is er een onderdeel: LOWER_CONNECTOR
+Van dit bestand is er een onderdeel
+```
+├── LOWER_CONNECTOR
+```
 
 ### Onderdeel 3: Hand link
 Van de hand link zijn er negen iteraties. 
