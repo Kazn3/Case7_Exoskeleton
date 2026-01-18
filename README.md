@@ -13,9 +13,17 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
 ## CAD
 Onder de map [CAD](/CAD) zijn de bestanden terug te vinden. Aangezien er tussen de verschillende iteraties door met dezelfde bestanden voor standaardcomponenten wordt gewerkt staan deze allemaal in dezelfde map. Onderstaande structuurlijst geeft de benodigde bestanden weer per iteratie per onderdeel.
 
+Voor dat de main hub werd ontworpen was er een test gedaan om te bevestigen of het oprolmechanisme zou werken. Na deze test werd duidelijk dat de boven- en onderkant een groot verschil in oprollen van touw nodig hadden. Dit zou mogelijk zijn door middel van een conische drum, of een drum die uit twee verschillende groottes bestaat.
+
 ### Onderdeel 1: Main hub
 #### Main Hub 1
-Dit is de eerste iteratie van de main hub. 
+Voor de eerste iteratie wordt gebruikgemaakt van een oprolmechanisme met zelf-uitlijnende tandwielen, gemonteerd op een polsbeschermer. Het tandwiel is aan weerszijden voorzien van een groef om de draad tijdens het oprollen nauwkeurig te geleiden.
+
+<p align="center">
+ <img width="60%" align="center" alt="image" src="https://github.com/user-attachments/assets/5ca2c63e-3491-48a1-bc5d-001d24397fd1" />
+</p>
+
+Bestanden:
 ```
 MAIN_HUB
  ├── SERVO_MINI
@@ -30,7 +38,13 @@ MAIN_HUB
 ```
 
 #### Main Hub 2
-Dit is de tweede iteratie van de main hub. 
+Deze iteratie adresseert de ruimtebeperkingen van het voorgaande ontwerp. Om de interne ruimte efficiënter te benutten, zijn de servo's nu geschrankt gepositioneerd in plaats van in een lineaire opstelling. Daarnaast is de behuizing uitgebreid met een geïntegreerd batterijcompartiment aan de onderzijde en is er binnenin de hub een specifieke bevestigingsplaats voor de Arduino gereserveerd.
+
+<p align="center">
+  <img width="60%" alt="image" src="https://github.com/user-attachments/assets/26991686-25ca-46f6-b5db-5fb8e81760a8" />  
+</p>
+
+Bestanden:
 ```
 MAIN_HUB_2
  ├── SERVO_MINI
@@ -54,7 +68,12 @@ MAIN_HUB_2
 ```
 
 #### Main Hub 3
-Dit is de derde iteratie van de main hub. 
+Bij de voorgaande iteratie bleek de uitlijning van de tandwielen problematisch, wat leidde tot doorslippen en mechanisch falen. Vanwege deze instabiliteit is voor de derde iteratie overgestapt op een volledig nieuw aandrijfconcept. De tandwieloverbrenging heeft plaatsgemaakt voor een pulleysysteem, waarbij de pulley's rechtstreeks op de assen van de servo's zijn gemonteerd.
+<p align="center">
+  <img width="60%" alt="image" src="https://github.com/user-attachments/assets/e220b8b0-afea-405c-a555-ec314513ea71" />
+</p>
+
+Bestanden: 
 ```
 MAIN_HUB_3
  ├── SERVO_MINI
@@ -74,7 +93,13 @@ MAIN_HUB_3
 ```
 
 #### Main Hub 4
-Dit is de vierde iteratie van de main hub. 
+Het pulleysysteem bleek in de praktijk gevoelig voor verstrikking wanneer de draadspanning wegviel. Om dit op te lossen zijn de poelies in deze iteratie vervangen door lobes (asymmetrische spoelen). Door de specifieke vormgeving, met een lange en een korte zijde, genereren deze componenten exact de juiste trekkarakteristiek en slaglengte voor de corresponderende zijde van de vinger.
+
+<p align="center">
+  <img width="60%" alt="image" src="https://github.com/user-attachments/assets/8ae25c38-6bc5-4d9e-aebd-7632a1705cc3" />
+</p>
+
+Bestanden:
 ```
 MAIN_HUB_4
  ├── SERVO_MINI
@@ -88,7 +113,12 @@ MAIN_HUB_4
 ```
 
 #### Main Hub 5
-Dit is de vijfde iteratie van de main hub. 
+Dit prototype bouwt constructief voort op de vorige iteratie, maar is uitgerust met grotere en krachtigere servo's. De voorgaande configuratie bleek ondergedimensioneerd en leverde onvoldoende koppel om de vingers effectief te laten buigen.
+<p align="center">
+  <img width="60%" alt="image" src="https://github.com/user-attachments/assets/b19eacd4-3df4-4714-af01-f3fba31fc90d" />
+</p>
+
+Bestanden:
 ```
 MAIN_HUB_5
  ├── SERVO
@@ -103,7 +133,12 @@ MAIN_HUB_5
 ```
 
 #### Main Hub 6
-Dit is de zesde iteratie van de main hub. 
+In deze laatste iteratie lag de focus op het reduceren van de totale breedte, aangezien het voorgaande prototype te omvangrijk bleek voor montage op de arm. Het mechanisme is aangepast naar een lever. Dit ontwerp behoudt de functionaliteit, maar zorgt voor een aanzienlijk slanker profiel. Tevens elimineert deze constructie het risico dat de draad uit de geleidingsgroef loopt, wat de betrouwbaarheid verhoogt.
+<p align="center">
+  <img width="60%" alt="image" src="https://github.com/user-attachments/assets/2f4e146f-d094-43cf-9c5e-708422162ac4" />
+</p>
+
+Bestanden:
 ```
 MAIN_HUB_6
  ├── SERVO
