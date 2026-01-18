@@ -1,5 +1,5 @@
 # Manura - Hand exoskeleton
-Deze repository documenteert het volledige iteratieve ontwerpproces van een exoskelet voor handondersteuning. Hierin vind je alle CAD-modellen (per iteratie) en de bijbehorende aansturingssoftware.
+Deze repository documenteert het volledige iteratieve ontwerpproces van een exoskelet voor handondersteuning. Hierin vind je alle CAD-modellen (per iteratie) en de bijbehorende aansturingssoftware. Van elk prototype is de laatste iteratie gebruikt in het finale ontwerp.
 
 ## Inhoudstafel
 - [CAD](#CAD)
