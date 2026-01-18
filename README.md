@@ -239,6 +239,10 @@ Om de bewegingsvrijheid van de gebruiker niet te beperken, is er in deze iterati
 
 #### Hand link 7
 Bij deze versie is een cleat aan het ontwerp toegevoegd. Dit mechanisme maakt het mogelijk om de draadspanning eenvoudig te fixeren en later weer af te stellen.
+<p align="center">
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/9b7261ba-2129-40f5-a199-82e51352c28b" />
+</p>
+
 ```
 ├── HAND_LINK_7
 ```
