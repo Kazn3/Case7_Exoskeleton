@@ -3,7 +3,9 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
 
 ## Inhoudstafel
 - [CAD](#CAD)
-  - [Main Hub](#onderdeel-1-main-hub)
+  - [Main hub](#onderdeel-1-main-hub)
+  - [Lower connector](#onderdeel-2-lower-connector)
+  - [Hand link](#onderdeel-3-hand-link)
 - [Arduino code](#Arduino)
 
 ## CAD
@@ -116,10 +118,10 @@ MAIN_HUB_6
  └── Hexagon socket countersunk head screw ISO 10642 M5x45
 ```
 
-### Lower connector
+### Onderdeel 2: Lower connector
 Van dit bestand is er een onderdeel: LOWER_CONNECTOR
 
-### HAND_LINK
+### Onderdeel 3: Hand link
 Van de hand link zijn er negen iteraties. 
 ```
 ├── HAND_LINK
