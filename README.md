@@ -7,6 +7,7 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
   - [Lower connector](#onderdeel-2-lower-connector)
   - [Hand link](#onderdeel-3-hand-link)
 - [Arduino code](#Arduino)
+  - [Finale code](#finale-code)
 
 ---
 
