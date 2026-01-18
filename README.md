@@ -1,7 +1,7 @@
 # Manura - Hand exoskeleton
 Deze repository documenteert het volledige iteratieve ontwerpproces van een exoskelet voor handondersteuning. Hierin vind je alle CAD-modellen (per iteratie) en de bijbehorende aansturingssoftware. Van elk prototype is de laatste iteratie gebruikt in het finale ontwerp.
 
-## Inhoudstafel
+## Inhoudsopgave
 - [CAD](#CAD)
   - [Main hub](#onderdeel-1-main-hub)
   - [Lower connector](#onderdeel-2-lower-connector)
@@ -232,20 +232,25 @@ Aangezien de links niet strak rond de vinger moet zitten om het exoskelet te doe
 </p>
 
 Bestanden:
+Om de bewegingsvrijheid van de gebruiker niet te beperken, is er in deze iteratie gekozen voor TPU. Dit flexibele materiaal zorgt ervoor dat de links kunnen stretchen met de bewegingen van de handschoen en de vinger.
 ```
 ├── HAND_LINK_6
 ```
 
 #### Hand link 7
-
+Bij deze versie is een cleat aan het ontwerp toegevoegd. Dit mechanisme maakt het mogelijk om de draadspanning eenvoudig te fixeren en later weer af te stellen.
 ```
 ├── HAND_LINK_7
 ```
+
 #### Hand link 8
+Dit ontwerp bouwt grotendeels voort op de voorgaande versie, maar breidt de keten uit met een vierde link die op de pols rust. Dit zorgt voor een vlottere overgang van de hand naar de main hub en een betere geleiding van de kabels.
 ```
 ├── HAND_LINK_8
 ```
+
 #### Hand link 9
+In deze laatste iteratie zijn de links dunner gemaakt waardoor het overbodige materiaal niet wordt verbruikt. Zo wordt er enkel gebruik gemaakt van de voorste link en wordt de onderste bekabeling geleid door een connectie onderaan de pols. Dit is de [lower connection](#lower-connection).
 ```
 ├── HAND_LINK_9
 ```
