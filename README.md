@@ -261,7 +261,6 @@ De servo’s bewegen **vloeiend zonder `delay()`**, zodat je animaties soepel bl
 
 Ideaal voor interactieve installaties, kinetische sculpturen of Arduino-gestuurde prototypes met meerdere servo’s.
 
----
 
 #### Features
 
@@ -270,7 +269,6 @@ Ideaal voor interactieve installaties, kinetische sculpturen of Arduino-gestuurd
 - 5 verschillende bewegingspatronen  
 - Geen `delay()` → geen blokkering  
 
----
 
 #### Benodigde hardware
 
@@ -289,7 +287,6 @@ Pin mapping:
 | s4 | 9 |Ringvinger|
 | s5 | 10 |Pink|
 
----
 
 #### Servobeweging
 
@@ -305,7 +302,6 @@ Hoe lager dit getal, hoe sneller de servo beweegt.
 
 De servo’s ontvangen hun INPUT via de website, waar zowel het type bewegingspatroon als de duur van de uitvoering wordt ingesteld.
 
----
 
 #### Beschikbare patronen
 
@@ -319,7 +315,7 @@ De servo’s ontvangen hun INPUT via de website, waar zowel het type bewegingspa
 
 ---
 
-## Mogelijke uitbreidingen
+### Mogelijke uitbreidingen
 
 * Extra patronen
 * Manuele bediening met een fysieke knop
