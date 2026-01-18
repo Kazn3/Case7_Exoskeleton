@@ -1,6 +1,6 @@
 # Arduino BLE Servo Controller
 
-Deze Arduino-code stuurt **5 servo motoren** aan via **Bluetooth Low Energy (BLE)** en een **fysieke drukknop**.  
+Deze Arduino-code stuurt **5 servo motoren** aan met een **website** verbonden via **Bluetooth Low Energy (BLE)**.  
 De servo’s bewegen **vloeiend zonder `delay()`**, zodat je animaties soepel blijven lopen terwijl BLE en input gewoon blijven werken.
 
 Ideaal voor interactieve installaties, kinetische sculpturen of Arduino-gestuurde prototypes met meerdere servo’s.
@@ -10,11 +10,9 @@ Ideaal voor interactieve installaties, kinetische sculpturen of Arduino-gestuurd
 ## Features
 
 - 5 servo’s met soepele beweging  
-- Aansturing via Bluetooth (BLE)  
-- Start / Stop knop op hardware  
+- Aansturing met website verbonden via Bluetooth (BLE)  
 - 5 verschillende bewegingspatronen  
 - Geen `delay()` → geen blokkering  
-- Dynamische timing gebaseerd op servo snelheid  
 
 ---
 
@@ -22,46 +20,22 @@ Ideaal voor interactieve installaties, kinetische sculpturen of Arduino-gestuurd
 
 - Arduino Nano 33 IoT  
 - 5x Servo motoren  
-- Drukknop  
-- Externe 5–6V voeding voor servo’s  
-- Verbindingen / breadboard
+- Externe 5–6V voeding voor servo’s
+- Externe 5V voeding voor arduino
+- Verbindingen
 
 Pin mapping:
-| Servo | Pin |
-|------|-----|
-| s1 | 3 |
-| s2 | 5 |
-| s3 | 6 |
-| s4 | 9 |
-| s5 | 10 |
-| Knop | 2 |
+| Servo | Pin | Vinger |
+|------|-----|-----|
+| s1 | 3 |Duim|
+| s2 | 5 |Wijsvinger|
+| s3 | 6 |Middelvinger|
+| s4 | 9 |Ringvinger|
+| s5 | 10 |Pink|
 
 ---
 
-## BLE werking
-
-De Arduino biedt een BLE service aan:
-- **Service UUID**: `180A`
-- **Characteristic UUID**: `2A57`
-
-Je kan via BLE een getal sturen:
-| Waarde | Betekenis |
-|-------|-----------|
-| `0` | Stop alles |
-| `1`–`5` | Activeer een patroon |
-
----
-
-## Fysieke knop
-
-De knop werkt als **start/stop schakelaar**.
-Elke keer dat je klikt:
-- Start als het systeem stilstaat
-- Stopt als het systeem loopt
-
----
-
-## 🎛 Servobeweging
+## Servobeweging
 
 Elke servo gebruikt een **SmoothServo-struct** die zorgt voor vloeiende beweging in plaats van abrupt bewegen.
 
@@ -73,17 +47,19 @@ const int SERVO_SNELHEID = 15;
 
 Hoe lager dit getal, hoe sneller de servo beweegt.
 
+De servo’s ontvangen hun INPUT via de website, waar zowel het type bewegingspatroon als de duur van de uitvoering wordt ingesteld.
+
 ---
 
 ## Beschikbare patronen
 
-| Patroon | Beschrijving                                |
-| ------- | ------------------------------------------- |
-| 1       | Servo 1 & 2 bewegen samen tussen 0° en 180° |
-| 2       | Servo 3 & 4 langzaam tussen 0° en 180°      |
-| 3       | Servo 1 & 5 bewegen tussen 30° en 150°      |
-| 4       | Alle servo's bewegen tussen 45° en 135°     |
-| 5       | Golvende beweging: 1,3,5 tegenover 2,4      |
+| Patroon | Naam|Beschrijving                                            |
+| ------- |-----------------|------------------------------------------- |
+| 1       |Volledige vuist  |Alle servo's bewegen tegelijk herhalend van 0° naar 180° en van 180° naar 0°|
+| 2       |Vinger per vinger|Servo's bewegen één voor één van 0° naar 180° en van 180° naar 0°|
+| 3       |Pinch grip       |Servo's 1 en 2 bewegen herhalend van 0° naar 180° en van 180° naar 0° |
+| 4       |Flexiegolf       |Servo's sluiten en openen in een golf beweging |
+| 5       |Vuist zonder duim|Alle servo's bewegen herhalend van 0° naar 180° en van 180° naar 0° buiten servo1|
 
 ---
 
@@ -332,13 +308,6 @@ void stopAllServos() {
 
 ## Mogelijke uitbreidingen
 
-* Web interface via BLE
 * Extra patronen
-* Potentiometer voor snelheid
-* Startpositie per servo opslaan
-
----
-
-
-
-Laat me weten als je ook een **Engelse versie**, **diagram** of **extra visuals** wil 👌
+* Manuele bediening met een fysieke knop
+* Sterkte van de servo's aanpassen via de website
