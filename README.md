@@ -1,8 +1,8 @@
 # Case7_Exoskeleton
 In deze GitHub is het gehele proces terug te vinden van het ontwerp van het exoskelet voor een hand. Per iteratie zijn alle CAD en arduino bestanden terug te vinden. 
-Inhoudstafel
-[CAD](#CAD)
-[Arduino code](#Arduino)
+## Inhoudstafel
+- [CAD](#CAD)
+- [Arduino code](#Arduino)
 
 ## CAD
 Onder de map [CAD](/CAD) zijn de bestanden terug te vinden. Aangezien er tussen de verschillende iteraties door met dezelfde bestanden voor standaardcomponenten wordt gewerkt staan deze allemaal in dezelfde map. Onderstaande structuurlijst geeft de benodigde bestanden weer per iteratie per onderdeel.
