@@ -226,13 +226,12 @@ Bestanden:
 ```
 
 #### Hand link 6
-Aangezien de links niet strak rond de vinger moet zitten om het exoskelet te doen werken is de velcro strip weggelaten en worden ze enkel op een handschoen gelijmd.
+Om de bewegingsvrijheid van de gebruiker niet te beperken, is er in deze iteratie gekozen voor TPU. Dit flexibele materiaal zorgt ervoor dat de links kunnen stretchen met de bewegingen van de handschoen en de vinger.
 <p align="center">
 <img width="60%" alt="image" src="https://github.com/user-attachments/assets/a0495eef-63f3-4c9f-add8-0c133abdfa34" />
 </p>
 
 Bestanden:
-Om de bewegingsvrijheid van de gebruiker niet te beperken, is er in deze iteratie gekozen voor TPU. Dit flexibele materiaal zorgt ervoor dat de links kunnen stretchen met de bewegingen van de handschoen en de vinger.
 ```
 ├── HAND_LINK_6
 ```
@@ -243,12 +242,16 @@ Bij deze versie is een cleat aan het ontwerp toegevoegd. Dit mechanisme maakt he
 <img width="60%" alt="image" src="https://github.com/user-attachments/assets/9b7261ba-2129-40f5-a199-82e51352c28b" />
 </p>
 
+Bestanden:
 ```
 ├── HAND_LINK_7
 ```
 
 #### Hand link 8
 Dit ontwerp bouwt grotendeels voort op de voorgaande versie, maar breidt de keten uit met een vierde link die op de pols rust. Dit zorgt voor een vlottere overgang van de hand naar de main hub en een betere geleiding van de kabels.
+<p></p>
+
+Bestanden:
 ```
 ├── HAND_LINK_8
 ```
@@ -260,6 +263,7 @@ In deze laatste iteratie zijn de links dunner gemaakt waardoor het overbodige ma
 
 </p>
 
+Bestanden:
 ```
 ├── HAND_LINK_9
 ```
