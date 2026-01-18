@@ -315,7 +315,7 @@ Elke servo gebruikt een **SmoothServo-struct** die zorgt voor vloeiende beweging
 De snelheid wordt bepaald via:
 
 ```cpp
-const int SERVO_SNELHEID = 15;
+const int SERVO_SNELHEID = 10;
 ````
 
 Hoe lager dit getal, hoe sneller de servo beweegt.
