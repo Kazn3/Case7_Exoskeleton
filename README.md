@@ -227,7 +227,7 @@ Bestanden:
 #### Hand link 6
 Aangezien de links niet strak rond de vinger moet zitten om het exoskelet te doen werken is de velcro strip weggelaten en worden ze enkel op een handschoen gelijmd.
 <p align="center">
-<img width="1948" height="1154" alt="image" src="https://github.com/user-attachments/assets/a0495eef-63f3-4c9f-add8-0c133abdfa34" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/a0495eef-63f3-4c9f-add8-0c133abdfa34" />
 </p>
 
 Bestanden:
