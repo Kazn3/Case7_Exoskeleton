@@ -3,7 +3,7 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
 
 ## Inhoudstafel
 - [CAD](#CAD)
-  - [Main Hub](#Onderdeel_1:_Main_hub)
+  - [Main Hub](#onderdeel-1-main-hub)
 - [Arduino code](#Arduino)
 
 ## CAD
