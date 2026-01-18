@@ -7,6 +7,7 @@ Het product bestaat uit:
   Onderdeel C: Lower_connector
   Bijkomende parts
 
+```
 /CAD_FILES
  ├── MAIN_HUB
  │    ├── Iteratie_01: MAIN_HUB
@@ -92,8 +93,7 @@ De visuals zijn gemaakt in blender.
 
 /VIS_FILES
  └── EXPL_HUB_6
-
-
+```
 
 
 
