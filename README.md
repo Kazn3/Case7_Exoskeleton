@@ -16,6 +16,8 @@ Onder de map [CAD](/CAD) zijn de bestanden terug te vinden. Aangezien er tussen 
 Voor dat de main hub werd ontworpen was er een test gedaan om te bevestigen of het oprolmechanisme zou werken. Na deze test werd duidelijk dat de boven- en onderkant een groot verschil in oprollen van touw nodig hadden. Dit zou mogelijk zijn door middel van een conische drum, of een drum die uit twee verschillende groottes bestaat.
 
 ### Onderdeel 1: Main hub
+Dit onderdeel van het prototype omvat alle elektronica en componenten om het exoskelet aan te sturen
+
 #### Main Hub 1
 Voor de eerste iteratie wordt gebruikgemaakt van een oprolmechanisme met zelf-uitlijnende tandwielen, gemonteerd op een polsbeschermer. Het tandwiel is aan weerszijden voorzien van een groef om de draad tijdens het oprollen nauwkeurig te geleiden.
 
@@ -157,24 +159,47 @@ MAIN_HUB_6
 ---
 
 ### Onderdeel 2: Lower connector
-Van dit bestand is er een onderdeel
+Deze connector is geplaatst op de onderkant van de polsbeschermer en zorgt ervoor dat de bedrading geleid wordt.
+<p>
+  
+</p>
+
+Bestanden: 
 ```
 ├── LOWER_CONNECTOR
 ```
 ---
 
 ### Onderdeel 3: Hand link
-Van de hand link zijn er negen iteraties. 
+Als laatste onderdeel zijn er de links die op de vingers worden geplaatst. Deze links geleiden de bedrading aan de boven- en onderkant van de vinger.
 #### Hand link 1
-Uitleg 
+De allereerste links zijn gemaakt dat er per vingerkoot een link is. Aan de boven en onderkant van de links zijn er 3 gaten. 2 om elastisch de links bij elkaar te houden en 1 om de bedrading met de servos te geleiden.
+<p align="center">
+   <img height="400px"  alt="image" src="https://github.com/user-attachments/assets/51fbea11-d2c2-4f26-9da1-c4d7a501f1fb" />
+</p>
+
+Bestanden:
 ```
 ├── HAND_LINK
 ```
+
 #### Hand link 2
+De tweede links zijn zeer gelijkaardig aan de eerste met als enige verschil dat deze geschaald zijn naar de juiste grootte.
+<p align="center">
+</p>
+
+Bestanden:
 ```
 ├── HAND_LINK_2
 ```
+
 #### Hand link 3
+Om een extra veiligheid in te bouwen zodat de vinger niet overstrekt kan worden door het systeem is er een ingebouwde stop bij deze links. Deze gaan blokkeren vanaf dat de vinger zou overstrekken.
+<p align="center">
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/4f11bfb2-24ab-446a-afc4-8488cb33a39f" />
+</p>
+
+Bestanden:
 ```
 ├── HAND_LINK_3
 ```
