@@ -343,7 +343,7 @@ Optimalisatie van de voorgaande code voor stand-alone werking. De firmware is aa
 
 Uitbreiding van het communicatieprotocol. De webinterface stuurt nu dynamische parameters door: naast het type bewegingspatroon wordt ook de gewenste tijdsduur van de oefening variabiliseerd.
 ```
-├── website_INPUT_pattern_en_tijd
+├── website_INPUT_pattern_en_tijd.ino
 ```
 
 ### Finale code
