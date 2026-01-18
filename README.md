@@ -126,17 +126,44 @@ Van dit bestand is er een onderdeel
 
 ### Onderdeel 3: Hand link
 Van de hand link zijn er negen iteraties. 
+#### Hand link 1
+Uitleg 
 ```
 ├── HAND_LINK
-├── HAND_LINK_2
-├── HAND_LINK_3
-├── HAND_LINK_4
-├── HAND_LINK_5
-├── HAND_LINK_6
-├── HAND_LINK_7
-├── HAND_LINK_8
-└── HAND_LINK_9
 ```
+#### Hand link 2
+```
+├── HAND_LINK_2
+```
+#### Hand link 3
+```
+├── HAND_LINK_3
+```
+#### Hand link 4
+```
+├── HAND_LINK_4
+```
+#### Hand link 5
+```
+├── HAND_LINK_5
+```
+#### Hand link 6
+```
+├── HAND_LINK_6
+```
+#### Hand link 7
+```
+├── HAND_LINK_7
+```
+#### Hand link 8
+```
+├── HAND_LINK_8
+```
+#### Hand link 9
+```
+├── HAND_LINK_9
+```
+
 
 
 
