@@ -275,6 +275,7 @@ Bestanden:
 De arduino bestanden zijn terug te vinden in de map [Arduino](/Arduino). 
 
 ### Finale code
+Deze code vind je [hier](/Arduino/laatste_code.ino) terug.
 Deze Arduino-code stuurt **5 servo motoren** aan met een **website** verbonden via **Bluetooth Low Energy (BLE)**.  
 De servo’s bewegen **vloeiend zonder `delay()`**, zodat je animaties soepel blijven lopen terwijl BLE en input gewoon blijven werken.
 
