@@ -1,7 +1,9 @@
 # Case7_Exoskeleton
-In deze GitHub is het gehele proces terug te vinden van het ontwerp van het exoskelet voor een hand. Per iteratie zijn alle CAD en arduino bestanden terug te vinden. 
+Deze repository documenteert het volledige iteratieve ontwerpproces van een exoskelet voor handondersteuning. Hierin vind je alle CAD-modellen (per iteratie) en de bijbehorende aansturingssoftware.
+
 ## Inhoudstafel
 - [CAD](#CAD)
+  - [Main Hub](#Onderdeel_1:_Main_hub)
 - [Arduino code](#Arduino)
 
 ## CAD
@@ -113,6 +115,25 @@ MAIN_HUB_6
  ├── BATTERY_MOUNT
  └── Hexagon socket countersunk head screw ISO 10642 M5x45
 ```
+
+### Lower connector
+Van dit bestand is er een onderdeel: LOWER_CONNECTOR
+
+### HAND_LINK
+Van de hand link zijn er negen iteraties. 
+```
+├── HAND_LINK
+├── HAND_LINK_2
+├── HAND_LINK_3
+├── HAND_LINK_4
+├── HAND_LINK_5
+├── HAND_LINK_6
+├── HAND_LINK_7
+├── HAND_LINK_8
+└── HAND_LINK_9
+```
+
+
 
 ## Arduino
 
