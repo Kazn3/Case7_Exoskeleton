@@ -7,6 +7,8 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
   - [Lower connector](#onderdeel-2-lower-connector)
   - [Hand link](#onderdeel-3-hand-link)
 - [Arduino code](#Arduino)
+  - [Arduino UNO](#arduino-uno)
+  - [Arduino Nano 33 IoT](#arduino-nano-33-iot)
   - [Finale code](#finale-code)
 
 ---
@@ -272,9 +274,81 @@ Bestanden:
 
 
 ## Arduino
-De arduino bestanden zijn terug te vinden in de map [Arduino](/Arduino). 
+De arduino bestanden zijn terug te vinden in de map [Arduino](/Arduino). Deze codes zijn gebruikt voor componenten te testen om zo tot de definitieve, finale code te kommen. Eerst werd er gewerkt met een Arduino UNO, later in het project is er overgeschakeld naar een Arduino Nano 33 IoT voor een draadloze ontwikkeling. 
+
+### Arduino UNO
+Deze scripts richten zich op het testen van individuele hardware-componenten en het ontwikkelen van de motorlogica.
+Erm Validatiecode voor de ERM-component (Eccentric Rotating Mass). Deze test dient om de outputkarakteristieken te analyseren en de toepasbaarheid binnen het exoskelet te evalueren.
+```
+├── erm.ino
+```
+
+Een eerste test met een stepmotor.
+De motor wordt aangestuurd met een drukknop:
+- eerste druk: motor begint te draaien
+- tweede druk: motor stopt
+- derde druk: motor draait één volledige omwenteling achteruit
+
+```
+├── stepmotor.ino
+```
+
+Uitbreiding op de basiscode waarbij een geheugenfunctie is toegevoegd. Het systeem houdt het aantal voorwaartse omwentelingen bij en draait bij de 'reverse'-instructie exact hetzelfde aantal slagen terug naar de nulpositie.
+```
+├── RoHs_drukknop_toeren_tellen.ino
+```
+
+Toevoeging van een softwarematige veiligheidsbegrenzing. Er is een maximumlimiet ingesteld voor het aantal rotaties om mechanische overbelasting te voorkomen wanneer de stop-input uitblijft.
+```
+├── stepmotor_met_limiet_instellen.ino
+```
+Validatie van de besturingslogica (limieten en tellers) toegepast op de 28BYJ-48 stappenmotorhardware.
+```
+├── 28BYJ-48_stappenmotor.ino
+```
+
+Porting van de besturingslogica (inclusief limieten en veiligheid) naar een MG90S-servo, ter voorbereiding op de definitieve aandrijving.
+```
+├── servo_met_drukknop.ino
+```
+
+### Arduino Nano 33 IoT
+Deze scripts focussen op draadloze communicatie (WiFi/BLE), integratie met de webinterface en stroommanagement.
+Proof-of-concept voor draadloze actuatie van vier servo’s via een lokale webserver over WiFi.
+Functionaliteit: Schakelen tussen drie hardcoded bewegingspatronen (Stop / Servo 1&2 bewegen / Servo 3&4 bewegen).
+```
+├── servo_wifi.ino
+```
+Hybride besturing waarbij het protocol wordt gesplitst: de selectie van het patroon verloopt via de webinterface, maar de activering (start/stop) vereist een fysieke drukknopbevestiging voor extra veiligheid.
+```
+├── wifi_met_knop.ino
+```
+
+Overstap naar het Bluetooth Low Energy (BLE) protocol voor energie-efficiëntie. Aansturing van vijf servo’s met vijf specifieke revalidatiepatronen, selecteerbaar via de nRF Connect smartphone-app.
+```
+├── servo_BLE_5pattern.ino
+```
+Combinatie van BLE-communicatie en fysieke interactie. Net als bij de WiFi-variant worden patronen digitaal geselecteerd (via nRF Connect), maar wordt de cyclus gestart en onderbroken via een fysieke knop op de hub.
+```
+├── servo_Bluetooth_met_knop.ino
+```
+Eerste volledige integratie met de custom webinterface via BLE. Zowel de patroonselectie als de start/stop-commando's worden volledig remote via de website aangestuurd.
+```
+├── eerste_code_voor_website.ino
+```
+Optimalisatie van de voorgaande code voor stand-alone werking. De firmware is aangepast om stabiel te functioneren op batterijvoeding, onafhankelijk van USB-connectie met een pc.
+```
+├── werkt_op_batterij.ino
+```
+
+Uitbreiding van het communicatieprotocol. De webinterface stuurt nu dynamische parameters door: naast het type bewegingspatroon wordt ook de gewenste tijdsduur van de oefening variabiliseerd.
+```
+├── website_INPUT_pattern_en_tijd
+```
 
 ### Finale code
+De definitieve release candidate. Deze versie bevat dezelfde functionaliteit als de voorgaande iteratie, maar is voorzien van uitgebreide code-commentaar en documentatie per sectie voor onderhoudbaarheid en overdracht.
+
 Deze code vind je [hier](/Arduino/laatste_code.ino) terug.
 Deze Arduino-code stuurt **5 servo motoren** aan met een **website** verbonden via **Bluetooth Low Energy (BLE)**.  
 De servo’s bewegen **vloeiend zonder `delay()`**, zodat je animaties soepel blijven lopen terwijl BLE en input gewoon blijven werken.
