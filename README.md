@@ -8,6 +8,8 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
   - [Hand link](#onderdeel-3-hand-link)
 - [Arduino code](#Arduino)
 
+---
+
 ## CAD
 Onder de map [CAD](/CAD) zijn de bestanden terug te vinden. Aangezien er tussen de verschillende iteraties door met dezelfde bestanden voor standaardcomponenten wordt gewerkt staan deze allemaal in dezelfde map. Onderstaande structuurlijst geeft de benodigde bestanden weer per iteratie per onderdeel.
 
@@ -117,12 +119,14 @@ MAIN_HUB_6
  ├── BATTERY_MOUNT
  └── Hexagon socket countersunk head screw ISO 10642 M5x45
 ```
+---
 
 ### Onderdeel 2: Lower connector
 Van dit bestand is er een onderdeel
 ```
 ├── LOWER_CONNECTOR
 ```
+---
 
 ### Onderdeel 3: Hand link
 Van de hand link zijn er negen iteraties. 
@@ -164,8 +168,9 @@ Uitleg
 ├── HAND_LINK_9
 ```
 
-
+---
 
 
 ## Arduino
-De arduino bestanden zijn terug te vinden in de map [Arduino](/Arduino)
+De arduino bestanden zijn terug te vinden in de map [Arduino](/Arduino). 
+
