@@ -3,9 +3,11 @@ Deze repository documenteert het volledige iteratieve ontwerpproces van een exos
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=Dzzav7d1lpM">
-    <img src="https://github.com/user-attachments/assets/a9761bab-fbd2-4e63-8c97-42df629093b2" alt="Video thumbnail" />
+<img src="https://github.com/user-attachments/assets/c29011aa-e9b7-42eb-8989-0d526b5ef9b8" />
+
   </a>
 </p>
+<img src="https://github.com/user-attachments/assets/c29011aa-e9b7-42eb-8989-0d526b5ef9b8" />
 
   
 
