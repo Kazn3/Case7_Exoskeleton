@@ -144,7 +144,7 @@ void loop() {
   // Als de sessie loopt, voer het patroon uit
   if (running) {
     unsigned long sessionElapsed = millis() - sessionStartTime;
-    unsigned long sessionLimit = (unsigned long)durationMinutes * 1000; // Omzetten naar ms
+    unsigned long sessionLimit = (unsigned long)durationMinutes * 60000; // Omzetten naar ms
 
     if (sessionElapsed >= sessionLimit) {
       stopAllServos(); // Tijd is om
