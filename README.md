@@ -8,38 +8,106 @@ Onder de map [CAD](/CAD) zijn de bestanden terug te vinden. Aangezien er tussen 
 #### Main Hub 1
 Dit is de eerste iteratie van de main hub. 
 ```
-├── MAIN_HUB
- │    ├── SERVO_MINI
- │    |    ├── LOBE_GEAR_2
- │    |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826
- │    |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
- │    ├── GEARBOX
- │    ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
- │    |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
- │    ├── HOUSING
- │    └── Hexalobular socket cheese head screw ISO 14579 M5x45
+MAIN_HUB
+ ├── SERVO_MINI
+ |    ├── LOBE_GEAR_2
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── GEARBOX
+ ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── HOUSING
+ └── Hexalobular socket cheese head screw ISO 14579 M5x45
 ```
 
 #### Main Hub 2
 Dit is de tweede iteratie van de main hub. 
 ```
 MAIN_HUB_2
- │    ├── SERVO_MINI
- │    |    ├── LOBE_GEAR_2
- │    |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826
- │    |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
- │    ├── GEARBOX_2
- │    ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
- │    |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
- │    ├── HOUSING_2
- │    ├── ARDUINO_NANO
- │    |    └── nano-board_step
- │    ├── HOUSING_2
- │    ├── BATTERY_3.7V
- │    ├── ARM
- │    ├── PCB
- │    ├── SPACER
- │    ├── Hexagon socket countersunk head screw ISO 10642 M5x16
- │    ├── Hexagon socket countersunk head screw ISO 10642 M5x45
- │    └── Hexalobular socket cheese head screw ISO 14579 M5x45
+ ├── SERVO_MINI
+ |    ├── LOBE_GEAR_2
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── GEARBOX_2
+ ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── HOUSING_2
+ ├── ARDUINO_NANO
+ |    └── nano-board_step
+ ├── HOUSING_2
+ ├── BATTERY_3.7V
+ ├── ARM
+ ├── PCB
+ ├── SPACER
+ ├── Hexagon socket countersunk head screw ISO 10642 M5x16
+ ├── Hexagon socket countersunk head screw ISO 10642 M5x45
+ └── Hexalobular socket cheese head screw ISO 14579 M5x45
 ```
+
+#### Main Hub 3
+Dit is de derde iteratie van de main hub. 
+```
+MAIN_HUB_3
+ ├── SERVO_MINI
+ |    ├── LOBE_GEAR_2
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── PULLEY_MG
+ |    ├── PULLEY_LINK_2
+ |    └── SERVO_MINI
+ |         ├── LOBE_GEAR_2
+ |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |              └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── ROPE
+ └── Hexalobular socket cheese head screw ISO 14579 M5x45
+```
+
+#### Main Hub 4
+Dit is de vierde iteratie van de main hub. 
+```
+MAIN_HUB_4
+ ├── SERVO_MINI
+ |    ├── LOBE_GEAR_2
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |         └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ ├── Hexagon socket countersunk head screw ISO 10642 M5x16
+ └── Hexagon socket countersunk head screw ISO 10642 M5x45
+```
+
+#### Main Hub 5
+Dit is de vijfde iteratie van de main hub. 
+```
+MAIN_HUB_5
+ ├── SERVO
+ |    ├── LEVER_CONNECTOR
+ |    ├── LEVER
+ |    ├── LEVER_2
+ |    ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |    |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ |    └── LOBE_GEAR_2
+ ├── CONNECTOR
+ └── Hexagon socket countersunk head screw ISO 10642 M5x45
+```
+
+#### Main Hub 6
+Dit is de zesde iteratie van de main hub. 
+```
+MAIN_HUB_6
+ ├── SERVO
+ |    ├── LEVER_CONNECTOR
+ |    ├── LEVER
+ |    ├── LEVER_2
+ |    ├── Single row radial deep groove ball bearing ISO 1002 11 4_826
+ |    |    └── Single row radial deep groove ball bearing ISO 1002 11 4_826_PART_1 -5
+ |    └── LOBE_GEAR_2
+ ├── TOP_SHELL
+ ├── BACK_PART
+ ├── FRONT_PART
+ ├── BATTERY_MOUNT
+ └── Hexagon socket countersunk head screw ISO 10642 M5x45
+```
+
