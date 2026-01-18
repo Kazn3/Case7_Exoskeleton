@@ -255,6 +255,11 @@ Dit ontwerp bouwt grotendeels voort op de voorgaande versie, maar breidt de kete
 
 #### Hand link 9
 In deze laatste iteratie zijn de links dunner gemaakt waardoor het overbodige materiaal niet wordt verbruikt. Zo wordt er enkel gebruik gemaakt van de voorste link en wordt de onderste bekabeling geleid door een connectie onderaan de pols. Dit is de [lower connection](#onderdeel-2-lower-connector).
+<p align="center">
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/e2cc5717-4154-4e82-8d8b-0aef2b5aa82b" />
+
+</p>
+
 ```
 ├── HAND_LINK_9
 ```
