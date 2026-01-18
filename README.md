@@ -204,18 +204,39 @@ Bestanden:
 ├── HAND_LINK_3
 ```
 #### Hand link 4
+Bij de vorige links waren de rotatiecentra niet op de juiste plek, dit zorgde ervoor dat de links niet juist draaide en de beweging moeilijker maakten. Dit werd opgelost door het rotatiecentrum te verplaatsen en de links op te splitsen. Om ervoor te zorgen dat ze goed aansluiten rond de vinger van de gebruiker worden ze met velcrostrips vastgeklemd.
+<p align="center">
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/0d2ca307-5093-43a1-b5d8-74a5873b3583" />
+</p>
+
+Bestanden:
 ```
 ├── HAND_LINK_4
 ```
 #### Hand link 5
+Bij alle vorige prototypes zou de gebruiker elke link apart moeten bevestigen. De bedoeling van dit project is om het gebruiksgemak te verhogen. Dit wordt vertaald naar de links door deze op een handschoen te bevestigen. Zo kan de gebruiker alle links in een beweging rond de vinger bevestigen.
+<p align="center">
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/6882e563-60be-494b-9b03-468cb3fcf138" />
+</p>
+
+Bestanden:
 ```
 ├── HAND_LINK_5
 ```
+
 #### Hand link 6
+Aangezien de links niet strak rond de vinger moet zitten om het exoskelet te doen werken is de velcro strip weggelaten en worden ze enkel op een handschoen gelijmd.
+<p align="center">
+<img width="1948" height="1154" alt="image" src="https://github.com/user-attachments/assets/a0495eef-63f3-4c9f-add8-0c133abdfa34" />
+</p>
+
+Bestanden:
 ```
 ├── HAND_LINK_6
 ```
+
 #### Hand link 7
+
 ```
 ├── HAND_LINK_7
 ```
