@@ -7,10 +7,7 @@ Het product bestaat uit:
   Onderdeel C: Lower_connector
   Bijkomende parts
 
-Elke iteratie bevat:
-  een korte beschrijving van de wijziging en de bijhorende CAD-files
-
-/CAD
+/CAD_FILES
  ├── MAIN_HUB
  │    ├── Iteratie_01: MAIN_HUB
  │    |    ├── SERVO_MINI
